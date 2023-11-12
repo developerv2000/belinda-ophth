@@ -1,0 +1,454 @@
+@media screen and (max-width: 1600px) {
+    .advantages__item p {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main-container {
+        padding-left: 68px;
+        padding-right: 68px;
+    }
+
+    /* Header */
+    .header__inner {
+        padding-top: 16px;
+        padding-bottom: 16px;
+        justify-content: space-between;
+    }
+
+    .header__logo img {
+        width: 92px;
+    }
+
+    .header__nav {
+        margin: 0;
+        font-size: 13px;
+    }
+
+    .header__contacts h3 {
+        font-size: 13px;
+    }
+
+    .header__contacts p {
+        font-size: 11px;
+    }
+
+    .header__contacts span {
+        padding: 9px;
+    }
+
+    .header__contacts-phone {
+        display: none !important;
+    }
+
+    /* Search */
+    .search__form {
+        width: 50%;
+    }
+
+    .search__links {
+        display: none;
+    }
+
+    .search__input {
+        height: 40px;
+    }
+
+    .search__form-button {
+        height: 40px;
+        width: 40px;
+        padding: 0;
+    }
+
+    .search__all-products {
+        min-width: auto;
+        width: 50%;
+        height: auto;
+        padding: 8px;
+    }
+
+    .search-results__list {
+        padding: 16px;
+        width: 480px;
+        left: 0;
+        gap: 8px;
+        font-size: 13px;
+    }
+
+    .search-results__list .material-icons-outlined {
+        font-size: 18px;
+    }
+
+    /* Footer */
+    .footer__inner {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .footer__nav {
+        display: none;
+    }
+
+    .scroll-top {
+        display: none;
+    }
+
+    .footer__main {
+        flex-direction: column-reverse;
+        gap: 28px;
+    }
+
+    .footer__contacts {
+        flex-direction: column;
+        gap: 28px;
+    }
+
+    .mailing-form {
+        margin-left: 0;
+    }
+
+    .footer .copyright {
+        text-align: center;
+    }
+
+    /* Home page */
+    .welcome-carousel__item img {
+        height: 230px;
+        object-fit: cover;
+        filter: brightness(0.7) contrast(0.8);
+    }
+
+    .advantages {
+        flex-wrap: wrap;
+    }
+
+    .advantages.owl-stoped .advantages__item {
+        width: calc(50% - 10px);
+        flex-basis: auto;
+    }
+
+    .research-list__item {
+        padding: 24px;
+    }
+
+    .producut-card__link-text span {
+        display: none;
+    }
+
+    /* Researches index page */
+    .researches__banner-background {
+        padding: 40px;
+        background-position: right;
+        color: white;
+        background-image: url(/img/main/researches-banner--tablet.png) !important;
+    }
+
+    /* Researches show page */
+    .research-content__inner {
+        gap: 20px;
+        padding-bottom: 40px;
+    }
+
+    .researches__sidebar {
+        width: 220px;
+        min-width: 220px;
+    }
+
+    .research-content__body {
+        padding: 24px;
+    }
+
+    .research-content__title {
+        font-size: 15px;
+    }
+
+    .research-content__subtitle {
+        margin-bottom: 24px;
+    }
+
+    .researches__sidebar .research-list__item {
+        padding: 24px;
+    }
+
+    /* Products index page */
+    .products-filter__form {
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+
+    .prescriptions-filter {
+        flex-basis: auto;
+        width: calc(50% - 6px);
+    }
+
+    .impacts-filter {
+        flex-basis: auto;
+        width: calc(50% - 6px);
+    }
+
+    .substances-filter {
+        flex-basis: auto;
+        width: 100%;
+    }
+
+    .products-list .product-card {
+        width: calc(50% - 10px);
+    }
+
+    .products-list-container .warning {
+        width: auto;
+    }
+
+    /* Products show page */
+    .product-content__inner {
+        flex-direction: column;
+        gap: 24px;
+        padding-bottom: 40px
+    }
+
+    .product-content__left {
+        min-width: 100%;
+        width: 100%;
+    }
+
+    .product-content__actions a {
+        width: 50%;
+    }
+
+    .product-content__image {
+        padding-bottom: 24px;
+        margin-top: 24px;
+    }
+
+    .product-content__image img {
+        width: 380px;
+    }
+
+    .product-content__right {
+        padding: 24px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .main-container {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    /* Header */
+    .header__inner {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    .header__nav {
+        display: none;
+    }
+
+    .header__logo {
+        width: 82px;
+        order: 2;
+    }
+
+    .header__contacts-shop div {
+        display: none;
+    }
+
+    .header__contacts-shop span {
+        padding: 8px;
+        font-size: 16px;
+    }
+
+    .mobile-menu-show {
+        display: inline-block;
+    }
+
+    .search__inner {
+        flex-direction: column;
+        gap: 8px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    .search__form {
+        width: 100%;
+    }
+
+    .search__input {
+        height: 36px;
+        background-color: white;
+        color: black !important;
+    }
+
+    .search__form-button {
+        height: 36px;
+        width: 36px;
+    }
+
+    .search__all-products {
+        width: 100%;
+    }
+
+    .search-results__list {
+        width: 100%;
+        padding: 12px 16px;
+    }
+
+    .search-results__list .results-title {
+        flex-basis: 100%;
+    }
+
+    .search-results__list .results-url,
+    .search-results__list .results-visit {
+        display: none;
+    }
+
+    .breadcrumbs ul {
+        flex-wrap: wrap;
+        gap: 4px 8px;
+    }
+
+    /* Footer */
+    .mailing-form {
+        width: 100%;
+    }
+
+    .mailing-form input {
+        width: 100%;
+    }
+
+    /* Home page */
+    .owl-nav--prev {
+        left: 0;
+    }
+
+    .owl-nav--next {
+        right: 0;
+    }
+
+    .welcome-carousel-container {
+        padding: 0;
+    }
+
+    .welcome-carousel__item div {
+        top: 0;
+        left: 0;
+        text-align: center;
+        align-items: center;
+    }
+
+    .welcome-carousel__item p {
+        font-size: 14px;
+    }
+
+    .advantages {
+        margin-bottom: 24px;
+    }
+
+    .advantages__item {
+        padding: 24px;
+    }
+
+    .researches-list {
+        gap: 20px;
+    }
+
+    .research-list__item {
+        width: 100%;
+        padding: 48px 24px;
+    }
+
+    .popular-products__inner {
+        padding-bottom: 32px;
+    }
+
+    .popular-products__all {
+        padding: 12px 32px;
+        width: 100%;
+    }
+
+    /* Researches index page */
+    .researches {
+        background-color: transparent;
+    }
+
+    .researches__inner {
+        padding-top: 0;
+    }
+
+    .researches__banner-inner {
+        padding: 0 0 32px;
+    }
+
+    .researches__banner-background {
+        padding: 36px 24px;
+        background-image: url(/img/main/researches-banner--mobile.png) !important;
+        min-height: 300px;
+    }
+
+    .researches__banner h1 {
+        font-size: 22px;
+    }
+
+    /* Researches show page */
+    .researches__sidebar {
+        display: none;
+    }
+
+    .research-content__body {
+        background: transparent;
+        padding: 0;
+    }
+
+    /* Products index page */
+    .prescriptions-filter {
+        width: 100%;
+    }
+
+    .impacts-filter {
+        width: 100%;
+    }
+
+    .products-list .product-card {
+        width: 100%;
+    }
+
+    .products-list-container {
+        padding-bottom: 40px;
+    }
+
+    /* Products show page */
+    .product-content__actions {
+        gap: 8px;
+    }
+
+    .product-content__actions a {
+        width: auto;
+        padding: 12px;
+        flex-grow: 1;
+    }
+
+    .product-content__actions a span {
+        display: none;
+    }
+
+    .product-content__image {
+        padding-bottom: 0;
+        margin-top: 0;
+        background-color: transparent;
+    }
+
+    .product-content__image p {
+        margin: 0;
+    }
+
+    .product-content__right {
+        padding: 0;
+        background-color: transparent;
+    }
+
+    .similar-products {
+        display: none;
+    }
+}
