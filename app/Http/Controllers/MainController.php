@@ -6,6 +6,7 @@ use App\Models\Product;
 use App\Models\Research;
 use App\Models\Slide;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Http;
 
 class MainController extends Controller
 {
