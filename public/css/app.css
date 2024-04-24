@@ -1419,20 +1419,20 @@ button {
 
 /* ------------ Supervision ------------ */
 .supervision {
-    padding: 40px 0;
+    padding: 0 0 40px;
 }
 
 .supervision__title {
-    font-size: 28px;
+    font-size: 20px;
     margin-bottom: 20px;
 }
 
 .supervision__contacts-title, .supervision__form-title {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .supervision__contacts-item a {
-    color: var(--main-color);
+    color: var(--main-dark-color);
     text-decoration: underline;
 }
 
@@ -1475,14 +1475,15 @@ button {
     margin-top: 12px;
     justify-content: center;
     display: flex;
-    background-color: var(--main-color);
+    background-color: var(--main-dark-color);
     color: white;
     padding: 8px;
     border-radius: 8px;
+    width: 100%;
 }
 
 .supervision__text a {
-    color: var(--main-color);
+    color: var(--main-dark-color);
     text-decoration: underline;
 }
 /* ------------ /end Supervision ------------ */

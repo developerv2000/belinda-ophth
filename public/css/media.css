@@ -231,17 +231,17 @@
 
     /* Supervision */
     .supervision {
-        padding: 28px 0;
+        padding: 0 0 28px;
     }
 
     .supervision__title {
-        font-size: 20px;
+        font-size: 16px;
         margin-bottom: 20px;
     }
 
     .supervision__contacts-title,
     .supervision__form-title {
-        font-size: 16px;
+        font-size: 15px;
     }
 
     .supervision__form {
