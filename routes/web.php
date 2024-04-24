@@ -20,6 +20,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [MainController::class, 'home'])->name('home');
+Route::get('/pharmacovigilance', [MainController::class, 'supervision'])->name('supervision.index');
 Route::post('/search', [MainController::class, 'search'])->name('search');
 
 //maling

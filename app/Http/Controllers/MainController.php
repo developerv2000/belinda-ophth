@@ -18,6 +18,14 @@ class MainController extends Controller
         return view('home.index', compact('slides', 'researches', 'products'));
     }
 
+    public function supervision()
+    {
+        $response = Http::get('http://farmkomnadzor.spey.tj/api/get-view?lang=' . app()->getLocale() . '&redirect_url=' . route('supervision.index'));
+        $supervisionForm = $response->successful() ? $response->body() : null;
+
+        return view('supervision.index', compact('supervisionForm'));
+    }
+
     public function search(Request $request)
     {
         $keyword = $request->keyword;

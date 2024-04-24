@@ -18,6 +18,10 @@
                 <li>
                     <a @if (strpos($route, 'products') !== false) class="active" @endif href="{{ route('products.index') }}">Продукты</a>
                 </li>
+
+                <li>
+                    <a @if (strpos($route, 'supervision') !== false) class="active" @endif href="{{ route('supervision.index') }}">Фармаконадзор</a>
+                </li>
             </ul>
         </nav>
 
@@ -62,6 +66,10 @@
 
                     <li>
                         <a @if (strpos($route, 'products') !== false) class="active" @endif href="{{ route('products.index') }}">Продукты</a>
+                    </li>
+
+                    <li>
+                        <a @if (strpos($route, 'supervision') !== false) class="active" @endif href="{{ route('supervision.index') }}">Фармаконадзор</a>
                     </li>
                 </ul>
             </nav>
